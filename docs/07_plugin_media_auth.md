@@ -18,6 +18,6 @@ Dazu ist das YRrewrite-Plugin `media_auth` nötig, das alle Medien auf ihre Bere
 ## Fehlerbehebung
 
 * **Das Schützen der Datei funktioniert nicht**: Sicherstellen, dass YRewrite installiert ist, aktiviert ist und die `.htaccess` im Hauptverzeichnis folgende Zeile enthält: 
-`RewriteRule ^media/(.*) %{ENV:BASE}/index.php?rex_media_type=default&rex_media_file=$1&%{QUERY_STRING} [B]`
+`RewriteRule ^media/(.*) %{ENV:BASE}/index.php?rex_media_type=yrewrite_default&rex_media_file=$1&%{QUERY_STRING} [B]`
 
 * **Bestimmte Dateitypen werden im Frontend nicht mehr korrekt dargestellt / heruntergeladen**: Bitte hier melden: [YRewrite GitHub](https://github.com/yakamara/redaxo_yrewrite/issues/235)
