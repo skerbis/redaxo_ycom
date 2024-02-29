@@ -1,0 +1,115 @@
+repo_name: skerbis/redaxo_ycom
+report_id: 4aca17f38111eacf50f6c5d525cc2b51
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:36:51+00:00'
+requested_by: dergel
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/skerbis/redaxo_ycom
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/skerbis/redaxo_ycom
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/skerbis/redaxo_ycom
+  detection_source: Repo Metadata
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/skerbis/redaxo_ycom/blob/master/plugins/auth/vendor/league/oauth2-client/composer.json
+  detection_source: plugins/auth/vendor/league/oauth2-client/composer.json
+  last_updated_by: Jan Kristinus
+  last_updated_on: 2020-08-14 06:43:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/skerbis/redaxo_ycom
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/skerbis/redaxo_ycom/blob/master/.github/workflows/phpstan.yml
+  detection_source: ".github/workflows/phpstan.yml"
+  last_updated_by: Markus Staab
+  last_updated_on: 2020-11-01 11:16:05.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/skerbis/redaxo_ycom/blob/master/plugins/auth/vendor/apereo/phpcas/composer.json
+  detection_source: plugins/auth/vendor/apereo/phpcas/composer.json
+  last_updated_by: Jan Kristinus
+  last_updated_on: 2020-04-02 22:30:34.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: '7.5'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/skerbis/redaxo_ycom/blob/master/plugins/auth/vendor/apereo/phpcas/composer.json
+  detection_source: plugins/auth/vendor/apereo/phpcas/composer.json
+  last_updated_by: Jan Kristinus
+  last_updated_on: 2020-04-02 22:30:34.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/skerbis/redaxo_ycom/blob/master/plugins/auth/vendor/apereo/phpcas/composer.json
+  detection_source: plugins/auth/vendor/apereo/phpcas/composer.json
+  last_updated_by: Jan Kristinus
+  last_updated_on: 2022-06-07 16:09:11.000000000 Z
